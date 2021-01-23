@@ -13,7 +13,6 @@ public class Point {
         int y1 = scanner.nextInt();
         int x2 = scanner.nextInt();
         int y2 = scanner.nextInt();
-//      double result = Point.distance(x1, y1, x2, y2);
         System.out.println("result (" + x1 + ", " + y1 + ") to (" + x2 + ", " + y2 + ") " + Point.distance(x1, y1, x2, y2));
     }
 }
