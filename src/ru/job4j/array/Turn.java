@@ -10,7 +10,7 @@ public class Turn {
                 System.out.println(array[i]);
             }
             if ((array.length - 1 - i) % 2 == 0) {
-                System.out.println(array[i]);
+                System.out.println(array[array.length - 1 - i]);
             }
         }
         return array;
