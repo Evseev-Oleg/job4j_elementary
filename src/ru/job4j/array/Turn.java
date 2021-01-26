@@ -6,11 +6,11 @@ public class Turn {
             int temp = array[i];
             array[i] = array[array.length - 1 - i];
             array[array.length - 1 - i] = temp;
-            if (array[i] % 2 == 0) {
+            if (i % 2 == 0) {
                 System.out.println(array[i]);
             }
-            if (array[array.length - 1 - i] % 2 == 0) {
-                System.out.println(array[array.length - 1 - i]);
+            if ((array.length - 1 - i) % 2 == 0) {
+                System.out.println(array[i]);
             }
         }
         return array;
