@@ -12,14 +12,4 @@ public class Matrix {
         }
         return table;
     }
-
-//    public static void main(String[] args) {
-//        for (int i = 0; i < 9; i++) {
-//            System.out.println("\n");
-//            for (int j = 0; j < 9; j++) {
-//                System.out.print(multiple(9)[i][j] + " ");
-//            }
-//        }
-//
-//    }
 }
